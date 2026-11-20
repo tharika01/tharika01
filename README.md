@@ -1,9 +1,27 @@
-## Hi there 👋
+# Hi there 👋 I'm Tharika!
+ 
+I'm an **AI Engineer at Maersk** 🚢, building production LLM systems: RAG assistants, multi-step agent workflows and the evaluation pipelines that keep them honest.
+ 
+My journey into engineering was sparked by a deep passion for AI, especially its applications in medicine. I believe strongly in **using AI for good**, and I'm happiest when the things I build make a real difference to the people using them. 🌟
+ 
+---
+ 
+## 🔭 What I'm Working On
+ 
+- **Making AI agents reliable at scale:** improving the LLM agents that resolve 18,000–20,000 customer cases a day across ~30 country-specific processes, and helping raise response accuracy from ~30% to ~50%
+- **Turning expert knowledge into AI workflows:** working with subject-matter experts to capture undocumented processes and turn them into structured, testable agent workflows
+- **Agent orchestration for security** (founding engineer, stealth cybersecurity startup): an agent layer that uses knowledge-graph context to connect security alerts into attack stories
 
-I'm an Associate Software Engineer at Maersk 🚢, where I primarily work with Java Spring Boot ☕, Apache Camel 🐪, and Python.
+## 📚 Recent Work
+ 
+- 📖 **Multi-product documentation assistant:** built a RAG assistant end to end for 15+ products, using an LLM-generated tag taxonomy for retrieval instead of plain vector search
+- 📏 **LLM evaluation pipeline:** golden datasets, retrieval metrics (recall, F1) and LLM-as-judge scoring for faithfulness and relevance, run from a CLI and in CI
 
-My journey into engineering was sparked by a deep passion for AI—especially its applications in medicine. I’m driven by curiosity, a love for learning 📚, and a desire to build impactful AI projects that make a real difference. I believe strongly in using AI for good and continually strive to contribute towards that vision. 🌟
-
-At Maersk, I’ve discovered a genuine enthusiasm for exploring new tools and technologies. I’m fascinated by the architectures that underpin everything from neural networks like RNNs, LSTMs, and Transformers to robust integration frameworks like Apache Camel.
-
-Recently, I have been working on implementing a doc agent: an intelligent backend service built with Python and Java, leveraging semantic indexing to deliver context-aware answers from product documentation—accessible via both UI and GitHub Discussions. I also set up automated evaluation pipelines to measure and improve its accuracy, bringing together my passion for AI, backend engineering, and practical automation.
+---
+ 
+## 🤝 Let's Connect
+ 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tharika%20Vikas%20Srinivasa-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/tharika-vikas-srinivasa)
+[![Portfolio](https://img.shields.io/badge/Portfolio-tharika01.github.io-blue?style=flat&logo=githubpages)](https://tharika01.github.io)
+[![Gmail](https://img.shields.io/badge/Gmail-tharikavsrinivasa@gmail.com-red?style=flat&logo=gmail&logoColor=white)](mailto:tharikavsrinivasa@gmail.com)
+  
