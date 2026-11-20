@@ -254,47 +254,26 @@
 
   <text x="70" y="92" class="kick">AI ENGINEER</text>
   <text x="68" y="150" class="name">Tharika Vikas Srinivasa</text>
-  <text x="70" y="192" class="line">Making AI agents reliable, one loop at a time.</text>
+  <text x="70" y="192" class="line">AI that works in the real world, not just in the demo.</text>
   <text x="70" y="220" class="line">RAG  ·  LLM agents  ·  evaluation  ·  AI for good</text>
 
-  <g transform="translate(760,52)">
-    <!-- edges -->
-    <line x1="92" y1="30" x2="150" y2="30" stroke="#7fb2ea" stroke-width="2" class="flow" marker-end="url(#ar)"/>
-    <line x1="242" y1="30" x2="300" y2="30" stroke="#7fb2ea" stroke-width="2" class="flow" marker-end="url(#ar)"/>
-    <line x1="346" y1="52" x2="346" y2="112" stroke="#7fb2ea" stroke-width="2" class="flow" marker-end="url(#ar)"/>
-    <!-- broken loop -->
-    <path d="M196 52 C 196 100, 60 100, 46 56" fill="none" stroke="#f2a65a" stroke-width="2" stroke-dasharray="4 5" marker-end="url(#arx)" opacity="0.85"/>
-    <g transform="translate(120,92)">
-      <circle r="11" fill="#f2a65a"/>
-      <path d="M-4.5 -4.5 L4.5 4.5 M4.5 -4.5 L-4.5 4.5" stroke="#0b1d33" stroke-width="2.6" stroke-linecap="round"/>
-    </g>
-    <text x="120" y="126" text-anchor="middle" class="tiny" fill="#f2a65a">loop caught</text>
-
-
-    <!-- travelling pulses -->
-    <circle r="4" fill="#cfe6ff" opacity="0"><animateMotion dur="3.2s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear" path="M92 30 L150 30"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="3.2s" repeatCount="indefinite"/></circle>
-    <circle r="4" fill="#cfe6ff" opacity="0"><animateMotion dur="3.2s" begin="0.8s" repeatCount="indefinite" path="M242 30 L300 30"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="3.2s" begin="0.8s" repeatCount="indefinite"/></circle>
-    <circle r="4" fill="#cfe6ff" opacity="0"><animateMotion dur="3.2s" begin="1.6s" repeatCount="indefinite" path="M346 52 L346 112"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="3.2s" begin="1.6s" repeatCount="indefinite"/></circle>
-    <circle r="3.5" fill="#f2a65a" opacity="0"><animateMotion dur="2.6s" repeatCount="indefinite" path="M196 52 C 196 100, 60 100, 46 56" keyPoints="0;0.5;0.5" keyTimes="0;0.6;1" calcMode="linear"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.55;0.62;1" dur="2.6s" repeatCount="indefinite"/></circle>
-
-    <!-- nodes -->
-    <rect x="0" y="8" width="92" height="44" rx="10" fill="#15304f" stroke="#3a6ea5"/>
-    <text x="46" y="35" text-anchor="middle" class="node">Ask</text>
-    <rect x="150" y="8" width="92" height="44" rx="10" fill="#15304f" stroke="#3a6ea5"/>
-    <text x="196" y="35" text-anchor="middle" class="node">Retrieve</text>
-    <rect x="300" y="8" width="92" height="44" rx="10" fill="#15304f" stroke="#3a6ea5"/>
-    <text x="346" y="35" text-anchor="middle" class="node">Tool</text>
-    <rect x="290" y="114" width="112" height="44" rx="10" fill="#1d4776" stroke="#7fb2ea" stroke-width="2" class="glow"/>
-    <text x="346" y="141" text-anchor="middle" class="node">Answer ✓</text>
-
-    <!-- eval chips -->
-    <g transform="translate(0,172)">
-      <rect x="0" y="0" width="118" height="26" rx="13" fill="#132a45"/>
-      <text x="59" y="17.5" text-anchor="middle" class="tiny" fill="#8fe3b5">faithful ✓</text>
-      <rect x="128" y="0" width="118" height="26" rx="13" fill="#132a45"/>
-      <text x="187" y="17.5" text-anchor="middle" class="tiny" fill="#8fe3b5">relevant ✓</text>
-      <rect x="256" y="0" width="136" height="26" rx="13" fill="#132a45"/>
-      <text x="324" y="17.5" text-anchor="middle" class="tiny" fill="#8fe3b5">source cited ✓</text>
-    </g>
+  <g transform="translate(745,42)">
+    <rect x="0" y="10" width="92" height="40" rx="10" fill="#15304f" stroke="#3a6ea5"/><text x="46.0" y="35.0" text-anchor="middle" class="node">Case</text>
+    <rect x="150" y="10" width="112" height="40" rx="10" fill="#15304f" stroke="#3a6ea5"/><text x="206.0" y="35.0" text-anchor="middle" class="node">Agent</text>
+    <rect x="320" y="10" width="96" height="40" rx="10" fill="#15304f" stroke="#3a6ea5"/><text x="368.0" y="35.0" text-anchor="middle" class="node">Tools</text>
+    <rect x="145" y="110" width="120" height="40" rx="10" fill="#1d4776" stroke="#7fb2ea" stroke-width="2" class="glow"/><text x="205.0" y="135.0" text-anchor="middle" class="node">Resolved ✓</text>
+    <path d="M92 30 L148 30" fill="none" stroke="#7fb2ea" stroke-width="2" class="flow" marker-end="url(#ar)"/>
+    <path d="M262 22 L318 22" fill="none" stroke="#7fb2ea" stroke-width="2" class="flow" marker-end="url(#ar)"/>
+    <path d="M318 42 L264 42" fill="none" stroke="#7fb2ea" stroke-width="2" class="flow" marker-end="url(#ar)"/>
+    <path d="M205 52 L205 108" fill="none" stroke="#7fb2ea" stroke-width="2" class="flow" marker-end="url(#ar)"/>
+    <rect x="270" y="56" width="98" height="22" rx="11" fill="none" stroke="#f2a65a" stroke-width="1.5"/>
+    <text x="319" y="71" text-anchor="middle" class="tiny" fill="#f2a65a">guardrails</text>
+    <circle r="4" fill="#cfe6ff" opacity="0"><animateMotion dur="3.0s" begin="0s" repeatCount="indefinite" path="M92 30 L148 30"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="3.0s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle r="4" fill="#cfe6ff" opacity="0"><animateMotion dur="3.0s" begin="0.7s" repeatCount="indefinite" path="M262 22 L318 22"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="3.0s" begin="0.7s" repeatCount="indefinite"/></circle>
+    <circle r="4" fill="#cfe6ff" opacity="0"><animateMotion dur="3.0s" begin="1.4s" repeatCount="indefinite" path="M318 42 L264 42"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="3.0s" begin="1.4s" repeatCount="indefinite"/></circle>
+    <circle r="4" fill="#cfe6ff" opacity="0"><animateMotion dur="3.0s" begin="2.1s" repeatCount="indefinite" path="M205 52 L205 108"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="3.0s" begin="2.1s" repeatCount="indefinite"/></circle>
+    <rect x="0" y="170" width="140" height="26" rx="13" fill="#132a45"/><text x="70.0" y="187.5" text-anchor="middle" class="tiny" fill="#8fe3b5">context filtered ✓</text>
+    <rect x="148" y="170" width="124" height="26" rx="13" fill="#132a45"/><text x="210.0" y="187.5" text-anchor="middle" class="tiny" fill="#8fe3b5">loops caught ✓</text>
+    <rect x="280" y="170" width="136" height="26" rx="13" fill="#132a45"/><text x="348.0" y="187.5" text-anchor="middle" class="tiny" fill="#8fe3b5">errors handled ✓</text>
   </g>
 </svg>
