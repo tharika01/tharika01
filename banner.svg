@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1d33"/>
+      <stop offset="55%" stop-color="#1F3A5F"/>
+      <stop offset="100%" stop-color="#3a6ea5"/>
+    </linearGradient>
+    <style>
+      .name { font: 700 58px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #ffffff; }
+      .tag  { font: 400 22px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #cfe0f5; letter-spacing: 1px; }
+      .fade, .fade2 { animation: fadein 1.6s ease-out; }
+      @keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+      .wave1 { animation: drift 9s ease-in-out infinite alternate; }
+      .wave2 { animation: drift 12s ease-in-out infinite alternate-reverse; }
+      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-60px); } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="260" fill="url(#bg)"/>
+
+  <!-- soft dots -->
+  <g fill="#ffffff" opacity="0.08">
+    <circle cx="120" cy="60" r="38"/>
+    <circle cx="1080" cy="50" r="26"/>
+    <circle cx="980" cy="120" r="12"/>
+    <circle cx="210" cy="150" r="10"/>
+  </g>
+
+  <!-- waves -->
+  <path class="wave2" fill="#ffffff" opacity="0.07"
+        d="M0 205 C 150 175, 300 235, 450 205 S 750 175, 900 205 S 1150 235, 1300 205 L1300 260 L0 260 Z"/>
+  <path class="wave1" fill="#ffffff" opacity="0.12"
+        d="M0 225 C 160 200, 320 250, 480 225 S 800 200, 960 225 S 1200 250, 1300 225 L1300 260 L0 260 Z"/>
+
+  <text x="600" y="120" text-anchor="middle" class="name fade">Tharika Vikas Srinivasa</text>
+  <text x="600" y="165" text-anchor="middle" class="tag fade2">AI Engineer  ·  LLM Agents  ·  RAG &amp; Evaluation  ·  AI for Good</text>
+</svg>
