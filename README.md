@@ -3,7 +3,7 @@
 <img src="./banner.svg" alt="Tharika Vikas Srinivasa · AI Engineer" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=900&color=3A6EA5&center=true&vCenter=true&width=680&lines=Curious+about+everything+AI;Making+LLM+agents+reliable;Always+learning+something+new;Building+AI+that+does+good" alt="Typing intro"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=900&color=3A6EA5&center=true&vCenter=true&width=680&lines=Curious+About+Everything+Tech;Always+Learning+Something+New;Building+Reliable+Agentic+AI+Systems" alt="Typing intro"/>
 </a>
 
 <br/>
@@ -14,13 +14,9 @@
 
 </div>
 
----
-
-## Hi there 👋 I'm Tharika!
-
 I'm an AI engineer at **Maersk** 🚢, where I build LLM agents, RAG systems and the evaluations that tell us whether they actually work.
 
-My journey into engineering was sparked by a deep passion for AI, especially what it could do for **medicine** 🩺. I'm driven by curiosity and a love for learning 📚, and I believe strongly in **using AI for good**. Whenever I can, I pick the work that makes a real difference to the people at the other end. 🌟
+My journey into engineering was sparked by a deep passion for AI, especially what it could do for **medicine** 🩺. I'm driven by curiosity and a love for learning 📚. Whenever I can, I pick the work that makes a real difference to the people at the other end.
 
 I love understanding how things work under the hood, from the architectures behind neural networks and Transformers to the messy, real-world reasons an AI agent gets stuck in a loop.
 
@@ -32,7 +28,7 @@ I love understanding how things work under the hood, from the architectures behi
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 Making AI agents reliable
+### Making AI agents reliable
 **@ Maersk**
 
 LLM agents that resolve thousands of customer cases a day, where every country follows its own process.
@@ -45,7 +41,7 @@ LLM agents that resolve thousands of customer cases a day, where every country f
 </td>
 <td width="50%" valign="top">
 
-### 🧩 Turning expert knowledge into AI
+### Turning expert knowledge into AI
 **@ Maersk**
 
 A lot of what experts know is never written down, so I go and ask.
